@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-08T09:27:20 IST" name="Suite" finished-at="2024-05-08T09:28:00 IST" duration-ms="39713">
+    <groups>
+    </groups>
+    <test started-at="2024-05-08T09:27:20 IST" name="Test" finished-at="2024-05-08T09:28:00 IST" duration-ms="39713">
+      <class name="testCases.TestCaseValidation">
+        <test-method is-config="true" signature="DriverSetup(java.lang.String)[pri:0, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:20 IST" name="DriverSetup" finished-at="2024-05-08T09:27:30 IST" duration-ms="9251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method signature="capture_user_info()[pri:1, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:30 IST" name="capture_user_info" finished-at="2024-05-08T09:27:40 IST" duration-ms="10171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_user_info -->
+        <test-method signature="oneCognizant()[pri:2, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:40 IST" name="oneCognizant" finished-at="2024-05-08T09:27:44 IST" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizant -->
+        <test-method signature="switchFrame()[pri:3, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:44 IST" name="switchFrame" finished-at="2024-05-08T09:27:54 IST" depends-on-methods="oneCognizant()" duration-ms="10041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchFrame -->
+        <test-method signature="validateCurrentWeek()[pri:4, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:54 IST" name="validateCurrentWeek" finished-at="2024-05-08T09:27:54 IST" depends-on-methods="switchFrame(), oneCognizant()" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrentWeek -->
+        <test-method signature="validateCurrentDate()[pri:5, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:55 IST" name="validateCurrentDate" finished-at="2024-05-08T09:27:55 IST" depends-on-methods="switchFrame(), oneCognizant()" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrentDate -->
+        <test-method signature="validateCurrentMonth()[pri:6, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:55 IST" name="validateCurrentMonth" finished-at="2024-05-08T09:27:55 IST" depends-on-methods="switchFrame(), oneCognizant()" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrentMonth -->
+        <test-method signature="backDatedTopup()[pri:7, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:55 IST" name="backDatedTopup" finished-at="2024-05-08T09:27:55 IST" depends-on-methods="switchFrame(), oneCognizant()" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backDatedTopup -->
+        <test-method signature="legends()[pri:8, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:55 IST" name="legends" finished-at="2024-05-08T09:27:55 IST" depends-on-methods="switchFrame(), oneCognizant()" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- legends -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCaseValidation@235ecd9f]" started-at="2024-05-08T09:27:55 IST" name="tearDown" finished-at="2024-05-08T09:28:00 IST" duration-ms="4613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCaseValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
